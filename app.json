@@ -1,22 +1,27 @@
 {
   "expo": {
-    "name": "call_app",
+    "name": "Rotary Phone",
     "slug": "call_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rotaryphone.app"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#7a1f1f",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rotaryphone.app",
+      "permissions": [
+        "android.permission.CALL_PHONE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
